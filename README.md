@@ -2,7 +2,7 @@
 CakeCutting
 Requirements:
 1.Python 3.4
-2.YOu may need to install some Python packages that I am using(you can use PIP to install them)
+2.You may need to install some Python packages that I am using(you can use PIP to install them)
 
 
 the project has two parts
