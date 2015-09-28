@@ -2,7 +2,7 @@ from utils.IndexesToExchange import IndexesToExchange
 
 __author__ = 'gabib3b'
 from evenpaz.allocation import Allocation
-import utils.numbersUtil as numbersUtils
+import utils.calcOperations as calcOperations
 
 
 
@@ -21,7 +21,8 @@ def try_to_exchange_by_agents(allocations):
                 first_allocation = allocations[i]
                 second_allocation = allocations[i+1]
 
-                first_allocation_value_on_second_allocation_range =  numbersUtils.sum_values(first_allocation.values, second_allocation.fromIndex, second_allocation.toIndex)
+
+                first_allocation_value_on_second_allocation_range =  first_allocation.agent_value_for_indexes(second_allocation.fromIndex, second_allocation.toIndex)
 
                 first_allocation_improvement = first_allocation_value_on_second_allocation_range - first_allocation.grade
 
@@ -29,7 +30,7 @@ def try_to_exchange_by_agents(allocations):
                 if first_allocation_improvement < 0:
                     continue
 
-                second_allocation_value_on_first_allocation_range =  numbersUtils.sum_values(second_allocation.values, first_allocation.fromIndex, first_allocation.toIndex)
+                second_allocation_value_on_first_allocation_range = second_allocation.agent_value_for_indexes(first_allocation.fromIndex, first_allocation.toIndex)
 
                 second_allocation_improvement = second_allocation_value_on_first_allocation_range - second_allocation.grade
 
@@ -49,6 +50,7 @@ def try_to_exchange_by_agents(allocations):
                 allocations[i+1].fromIndex = from_index_i
                 allocations[i+1].toIndex= to_index_i
                 num_of_exchanges += 1
+                index_to_change = None
 
             else:#case no more changes return..
                 return num_of_exchanges
