@@ -28,6 +28,7 @@ from datetime import datetime
 
 NOISE_PROPORTION = [0.2, 0.4, 0.6,0.8]
 NUMBER_OF_AGENTS = [2,4,8,16,32,64,128,256,512]
+#NUMBER_OF_AGENTS = [16, 32, 64,128,256,512]
 DATA_FILE_NAME ='data/newzealand_forests_npv_4q.1d.json'
 EXPERIMENTS_PER_CELL = 1
 
@@ -59,20 +60,6 @@ def run_ex_for_params(num_of_agents, noise, values):
         #last diminisher
         calc_results_with_exchnages(LastDiminisher.last_diminisher_allocation, expType.ExperimentType.last_diminisher, expType.ExperimentType.last_diminisher_exchange_jealous,
                                     allocations2, num_of_agents, noise, None, identical_allocation_last_diminisher, expType.ExperimentType.last_diminisher_appraiser, results_by_exp_type)
-
-        #even paz appraiser
-        #even_paz_appraiser_values = numbersUtils.noisy_values_array(values, 0, None, num_of_agents)
-        #leven_paz_appraiser_allocations = numbersUtils.values_to_allocations(noise_values)
-        #calc_results_with_exchnages(evenpazalg.even_paz_dividion, expType.ExperimentType.even_paz_appraiser, expType.ExperimentType.even_paz_appraiser_exchange_jealous,
-        #                            leven_paz_appraiser_allocations, num_of_agents, 0, None, identical_values, results_by_exp_type)
-
-
-        #even paz appraiser
-        #last_diminisher_appraiser_values = numbersUtils.noisy_values_array(values, 0, None, num_of_agents)
-        #last_diminisher_appraiser_allocations = numbersUtils.values_to_allocations(noise_values)
-        #calc_results_with_exchnages(LastDiminisher.last_diminisher_allocation, expType.ExperimentType.last_diminisher_appraiser, expType.ExperimentType.last_diminisher_appraiser_exchange_jealous,
-         #                           last_diminisher_appraiser_allocations, num_of_agents, 0, None, identical_values, results_by_exp_type)
-
 
         #env influence
         index_to_location_type = envinfluence.index_to_location_type(values, envinfluence. LOCATION_TYPES())
@@ -122,6 +109,9 @@ def run_ex_for_params(num_of_agents, noise, values):
 
 
 def run_2(num_of_agents, noise, values):
+
+     print('start calculating agencts-{0} , noise-{1},  {2}'.format(num_of_agents, noise, datetime.utcnow()))
+
      identical_values = numbersUtils.values_to_allocations(numbersUtils.noisy_values_array(values, 0, None, num_of_agents))
 
      noise_values = numbersUtils.values_to_allocations(numbersUtils.noisy_values_array(values, noise, None, num_of_agents))
@@ -131,7 +121,12 @@ def run_2(num_of_agents, noise, values):
      env_influence_values = numbersUtils.values_to_allocations(numbersUtils.preferences_values_array(values, index_to_location_type, None,  num_of_agents))
 
      ldResults = calc_single_row(num_of_agents, noise, deepcopy(noise_values), deepcopy(identical_values), deepcopy(env_influence_values), LastDiminisher.last_diminisher_allocation)
+
+     print('ldResults calculated {0}'.format(datetime.utcnow()))
+
      evenPazResults = calc_single_row(num_of_agents, noise, deepcopy(noise_values), deepcopy(identical_values), deepcopy(env_influence_values), evenpazalg.even_paz_dividion)
+
+     print('evenPazResults calculated {0}'.format(datetime.utcnow()))
 
      return  evenPazResults,ldResults
 
@@ -238,7 +233,7 @@ def calculate_results(aggregationType):
 
     values = mean_values()
 
-    dirPath = 'results/{0}'.format(datetime.utcnow())
+    dirPath = 'results/{0}'.format(datetime.utcnow().strftime("%Y_%m_%d_%M_%S"))
 
     if not os.path.exists(dirPath):
         os.makedirs(dirPath)
@@ -292,8 +287,9 @@ def calculate_results(aggregationType):
 
 
 
-calculate_results(AggregationType.NUmberOfAgents)
-print('completed..')
+if __name__ == '__main__':
+    calculate_results(AggregationType.NUmberOfAgents)
+    print('completed..')
 
 
 
