@@ -7,7 +7,7 @@ from evenpaz.allocation import Allocation
 import utils.envInfluence as envInf
 import sys
 import random
-
+import utils.calcOperations as calcOperations
 
 def values_to_allocations(values):
     allocations = []
@@ -161,31 +161,31 @@ def env_influential_values(mean_values, noise_proportion, normalized_sum):
 
 
 #calc sum of the values array from index to index
-def sum_values(values, from_index, to_index):
-
-    if from_index < 0 or from_index > len(values):
-        raise RuntimeError('from_index not valid ' + from_index)
-
-    if to_index < 0 or to_index > len(values):
-        raise RuntimeError('to_index not valid ' + to_index)
-
-    if to_index < from_index:
-        raise RuntimeError('to_index not valid ' + to_index)
-
-    from_floor = int(math.floor(from_index))
-    from_fraction = (from_floor+1-from_index)
-    to_ceiling = int(math.ceil(to_index))
-    to_ceiling_removed_fraction = to_ceiling - to_index
-
-    calculated_sum = 0
-    calculated_sum += values[from_floor] * from_fraction
-
-    for index in range(from_floor + 1, to_ceiling):
-        calculated_sum += values[index]
-
-    calculated_sum -= values[to_ceiling - 1] * to_ceiling_removed_fraction
-
-    return calculated_sum
+# def sum_values(values, from_index, to_index):
+#
+#     if from_index < 0 or from_index > len(values):
+#         raise RuntimeError('from_index not valid ' + from_index)
+#
+#     if to_index < 0 or to_index > len(values):
+#         raise RuntimeError('to_index not valid ' + to_index)
+#
+#     if to_index < from_index:
+#         raise RuntimeError('to_index not valid ' + to_index)
+#
+#     from_floor = int(math.floor(from_index))
+#     from_fraction = (from_floor+1-from_index)
+#     to_ceiling = int(math.ceil(to_index))
+#     to_ceiling_removed_fraction = to_ceiling - to_index
+#
+#     calculated_sum = 0
+#     calculated_sum += values[from_floor] * from_fraction
+#
+#     for index in range(from_floor + 1, to_ceiling):
+#         calculated_sum += values[index]
+#
+#     calculated_sum -= values[to_ceiling - 1] * to_ceiling_removed_fraction
+#
+#     return calculated_sum
 
 #return how many elemnts to take from from_index
 def cut_index(values, target_sum, from_index, to_index):
@@ -217,9 +217,10 @@ def cut_index(values, target_sum, from_index, to_index):
 
 
 def relative_value(allocation):
-    allocation_sum = sum_values(allocation.values, allocation.fromIndex, allocation.toIndex)
-    total_sum = sum_values(allocation.values, 0, len(allocation.values))
-    return allocation_sum / total_sum
+    #allocation_sum = sum_values(allocation.values, allocation.fromIndex, allocation.toIndex)
+    #total_sum = sum_values(allocation.values, 0, len(allocation.values))
+    #return allocation_sum / total_sum
+    return allocation.relative_value()
 
 def egalitarianValue(allocations):
     #return relative_value(allocation)
@@ -241,10 +242,16 @@ def utilitarianValue(allocations):
 
 #how much the current values worth for each agent in fair division
 def current_split_agent_value(values, from_index, to_index, number_of_agents):
-    return sum_values(values, from_index, to_index) / number_of_agents
+    return calcOperations.sum_values(values, from_index, to_index) / number_of_agents
+
+
+def current_split_allocation_value(allocation, from_index, to_index, number_of_agents):
+    return allocation.values_sum(from_index, to_index)/ number_of_agents
+
+
 
 def division_sum(values, from_index, to_index):
-    return sum_values(values, from_index, to_index)
+    return calcOperations.sum_values(values, from_index, to_index)
 
 
 def set_allocations_grade(allocations):
@@ -252,7 +259,7 @@ def set_allocations_grade(allocations):
         set_allocation_grade(allocation)
 
 def set_allocation_grade(allocation):
-    allocation.grade = sum_values(allocation.values, allocation.fromIndex, allocation.toIndex)
+    allocation.grade = calcOperations.sum_values(allocation.values, allocation.fromIndex, allocation.toIndex)
 
 
 

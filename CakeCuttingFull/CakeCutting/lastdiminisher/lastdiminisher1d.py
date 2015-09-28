@@ -89,8 +89,9 @@ def last_diminisher_allocation(allocations, fraudAgentIndex = None):
 
 
 def check_division_for_agent(allocation, from_index, to_index, number_of_agents):
-    agent_fair_value = numbersUtils.current_split_agent_value(allocation.values, allocation.fromIndex, allocation.toIndex, number_of_agents)
-    current_allocation_value = numbersUtils.division_sum(allocation.values, from_index, to_index)
+    agent_fair_value = numbersUtils.current_split_allocation_value(allocation, allocation.fromIndex, allocation.toIndex, number_of_agents)
+    current_allocation_value = allocation.values_sum(from_index, to_index)
+    #numbersUtils.division_sum(allocation.values, from_index, to_index)
 
     if agent_fair_value >= current_allocation_value:
         return None
@@ -100,7 +101,7 @@ def check_division_for_agent(allocation, from_index, to_index, number_of_agents)
 
 
 def  divide_smaller_for_agent(allocation, from_index, to_index, number_of_agents):
-    agent_fair_value = numbersUtils.current_split_agent_value(allocation.values, allocation.fromIndex, allocation.toIndex, number_of_agents)
+    agent_fair_value = numbersUtils.current_split_allocation_value(allocation, allocation.fromIndex, allocation.toIndex, number_of_agents)
     agent_to_index = numbersUtils.cut_index(allocation.values, agent_fair_value, from_index,  allocation.toIndex)
 
     allocation.fromIndex = from_index
