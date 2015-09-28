@@ -4,6 +4,8 @@ import operator
 
 __author__ = 'gabib3b'
 
+import utils.calcOperations as calcOperations
+
 # run Evenpaz on 1 dimention input..
 
 
@@ -125,7 +127,7 @@ def split_by_cut_location(allocations, cut_location, assignIndexes):
 
 def calc_half_cut(allocation, proportional_value, fraud_agent_index, allocations):
 
-    calculated_sum = Numbersutil.sum_values(allocation.values, allocation.fromIndex, allocation.toIndex)
+    calculated_sum = allocation.values_sum(allocation.fromIndex, allocation.toIndex)
     target_sum = proportional_value * calculated_sum
     host_cut_index = Numbersutil.cut_index(allocation.values, target_sum, allocation.fromIndex, allocation.toIndex)
 

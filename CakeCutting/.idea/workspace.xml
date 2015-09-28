@@ -24,37 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tmpmain.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tmpmain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.421222" vertical-offset="1047" max-vertical-offset="1950">
-              <caret line="295" column="18" selection-start-line="295" selection-start-column="18" selection-end-line="295" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#957#6069#0" expanded="false" />
-                <element signature="e#6119#7022#0" expanded="false" />
-                <element signature="e#7142#10084#0" expanded="false" />
-                <element signature="e#10286#11496#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="enum.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/lib/python3.4/enum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3830" max-vertical-offset="7935">
-              <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3685" max-vertical-offset="7935">
+              <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,74 +37,104 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="705">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="3945">
+              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
-                <element signature="e#24#65#0" expanded="true" />
-                <element signature="e#668#2096#0" expanded="false" />
-                <element signature="e#2127#4148#0" expanded="false" />
+                <element signature="e#9483#10693#0" expanded="false" />
+                <element signature="e#10721#10830#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="algresult.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/algresult.py">
+      <file leaf-file-name="cakepartitions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/cakepartitions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="570">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.68222624" vertical-offset="355" max-vertical-offset="990">
+              <caret line="50" column="19" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expResult.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/expResult.py">
+      <file leaf-file-name="evenpaz1d.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evenpaz/evenpaz1d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="885">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="2505">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpMeasures.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/ExpMeasures.py">
+      <file leaf-file-name="strategy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/strategy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="450">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="960">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexesToExchange.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/IndexesToExchange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="360">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copy.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.4/copy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="5040">
+              <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numbersUtil.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/numbersUtil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1645" max-vertical-offset="2610">
+              <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#25#45#0" expanded="true" />
+                <element signature="e#247#370#0" expanded="false" />
+                <element signature="e#413#450#0" expanded="false" />
+                <element signature="e#522#1047#0" expanded="false" />
+                <element signature="e#1130#1785#0" expanded="false" />
+                <element signature="e#1879#2266#0" expanded="false" />
+                <element signature="e#2314#3361#0" expanded="false" />
+                <element signature="e#3453#3601#0" expanded="false" />
+                <element signature="e#3960#4118#0" expanded="false" />
+                <element signature="e#4166#4361#0" expanded="false" />
+                <element signature="e#4445#4970#0" expanded="false" />
+                <element signature="e#8180#8251#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="additionalFields.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/additionalFields.py">
+      <file leaf-file-name="allocation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evenpaz/allocation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="195">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1005">
+              <caret line="47" column="91" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collectionsUtil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/collectionsUtil.py">
+      <file leaf-file-name="calcOperations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/calcOperations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csv.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.4/csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1662" max-vertical-offset="6705">
-              <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,8 +148,6 @@
         <option value="$PROJECT_DIR$/evenpaz/Allocation.py" />
         <option value="$PROJECT_DIR$/evenpaz/Allocations.py" />
         <option value="$PROJECT_DIR$/graphdrawing/drawingUtil.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/evenpaz/allocation.py" />
         <option value="$PROJECT_DIR$/utils/IndexesKey.py" />
         <option value="$PROJECT_DIR$/test/evenpaztest.py" />
         <option value="$PROJECT_DIR$/utils/envInfluence.py" />
@@ -154,28 +156,30 @@
         <option value="$PROJECT_DIR$/results/resultsWriter.py" />
         <option value="$PROJECT_DIR$/utils/expKey.py" />
         <option value="$PROJECT_DIR$/utils/IndexesToExchange.py" />
-        <option value="$PROJECT_DIR$/utils/strategy.py" />
         <option value="$PROJECT_DIR$/utils/additionalFields.py" />
         <option value="$PROJECT_DIR$/utils/aggragationTYpe.py" />
         <option value="$PROJECT_DIR$/utils/experimentType.py" />
-        <option value="$PROJECT_DIR$/utils/numbersUtil.py" />
         <option value="$PROJECT_DIR$/utils/ResultMeasure.py" />
-        <option value="$PROJECT_DIR$/evenpaz/evenpaz1d.py" />
-        <option value="$PROJECT_DIR$/utils/cakepartitions.py" />
-        <option value="$PROJECT_DIR$/lastdiminisher/lastdiminisher1d.py" />
         <option value="$PROJECT_DIR$/utils/collectionsUtil.py" />
         <option value="$PROJECT_DIR$/utils/ExpMeasures.py" />
         <option value="$PROJECT_DIR$/utils/expResult.py" />
         <option value="$PROJECT_DIR$/utils/algresult.py" />
         <option value="$PROJECT_DIR$/tmpmain.py" />
+        <option value="$PROJECT_DIR$/utils/calcOperations.py" />
+        <option value="$PROJECT_DIR$/utils/numbersUtil.py" />
+        <option value="$PROJECT_DIR$/evenpaz/evenpaz1d.py" />
+        <option value="$PROJECT_DIR$/lastdiminisher/lastdiminisher1d.py" />
+        <option value="$PROJECT_DIR$/utils/strategy.py" />
+        <option value="$PROJECT_DIR$/evenpaz/allocation.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/utils/cakepartitions.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="92" />
-    <option name="width" value="1307" />
-    <option name="height" value="745" />
+    <option name="x" value="1423" />
+    <option name="width" value="1863" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,34 +223,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CakeCutting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CakeCutting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CakeCutting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CakeCutting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -257,7 +233,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pyTu" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -272,7 +248,7 @@
       <recent name="$PROJECT_DIR$/../" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tmpmain">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -463,9 +439,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.tmpmain" />
-        <item index="1" class="java.lang.String" itemvalue="Python.evenpaztest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tmpmain" />
+        <item index="2" class="java.lang.String" itemvalue="Python.evenpaztest" />
       </list>
     </recent_temporary>
   </component>
@@ -483,11 +459,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="92" width="1307" height="745" extended-state="0" />
-    <editor active="false" />
+    <frame x="1423" y="0" width="1863" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41524106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20738328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -497,13 +473,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3747346" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37978724" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -549,67 +525,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>114</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>90</line>
+          <line>77</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>105</line>
+          <line>92</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>100</line>
+          <line>87</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>81</line>
+          <line>68</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>123</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>127</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/graphdrawing/drawingUtil.py</url>
@@ -618,23 +555,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
           <line>25</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>121</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/utils/numbersUtil.py</url>
-          <line>215</line>
-          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/test/evenpaztest.py</url>
@@ -667,20 +589,49 @@
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/utils/cakepartitions.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="179" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <condition expression="envious_value &lt; 0.000001" language="Python" />
-          <url>file://$PROJECT_DIR$/utils/cakepartitions.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/tmpmain.py</url>
           <line>245</line>
           <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>274</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="309" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -693,22 +644,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="216" />
+      <option name="time" value="320" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="evenPazResults" language="Python" />
-        <watch expression="type(evenPazResults)" language="Python" />
-        <watch expression="self._fraudAgentIndexToResult" language="Python" />
-        <watch expression="self._fraudAgentIndexToResult[key].toCsv()" language="Python" />
-        <watch expression="'agenctINdex+ '+key + ',' + self._fraudAgentIndexToResult[key].toCSv()" language="Python" />
-        <watch expression="evenPazResultsStr" language="Python" />
-        <watch expression="evenPazResultsStr" language="Python" />
-        <watch expression="evenPazResultsStr" language="Python" />
-        <watch expression="evenPazResultsStr" language="Python" />
-        <watch expression="fraudCsv" language="Python" />
-        <watch expression="fraudCsv[0:len(fraudCsv)-1]" language="Python" />
-        <watch expression="len(fraudCsv)" language="Python" />
+        <watch expression="env" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -717,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="195">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1662" max-vertical-offset="6705">
           <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,24 +679,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1335">
           <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="56" />
           <folding>
-            <element signature="e#25#45#0" expanded="false" />
-            <element signature="e#202#325#0" expanded="false" />
-            <element signature="e#368#405#0" expanded="false" />
-            <element signature="e#477#1002#0" expanded="false" />
-            <element signature="e#1085#1740#0" expanded="false" />
-            <element signature="e#1834#2221#0" expanded="false" />
-            <element signature="e#2269#3316#0" expanded="false" />
-            <element signature="e#3408#3556#0" expanded="false" />
-            <element signature="e#3661#3820#0" expanded="false" />
-            <element signature="e#3915#4073#0" expanded="false" />
-            <element signature="e#4121#4316#0" expanded="false" />
-            <element signature="e#4400#4925#0" expanded="false" />
-            <element signature="e#5922#6704#0" expanded="false" />
-            <element signature="e#7361#7489#0" expanded="false" />
-            <element signature="e#7642#7708#0" expanded="false" />
-            <element signature="e#7762#7809#0" expanded="false" />
-            <element signature="e#7856#7927#0" expanded="false" />
-            <element signature="e#7971#8061#0" expanded="false" />
+            <element signature="e#25#45#0" expanded="true" />
+            <element signature="e#247#370#0" expanded="false" />
+            <element signature="e#413#450#0" expanded="false" />
+            <element signature="e#522#1047#0" expanded="false" />
+            <element signature="e#1130#1785#0" expanded="false" />
+            <element signature="e#1879#2266#0" expanded="false" />
+            <element signature="e#2314#3361#0" expanded="false" />
+            <element signature="e#3453#3601#0" expanded="false" />
+            <element signature="e#3960#4118#0" expanded="false" />
+            <element signature="e#4166#4361#0" expanded="false" />
+            <element signature="e#4445#4970#0" expanded="false" />
+            <element signature="e#8180#8251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,9 +721,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#65#0" expanded="true" />
-            <element signature="e#668#2096#0" expanded="false" />
-            <element signature="e#2127#4148#0" expanded="false" />
+            <element signature="e#9483#10693#0" expanded="false" />
+            <element signature="e#10721#10830#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,24 +746,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1290">
           <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
           <folding>
-            <element signature="e#25#45#0" expanded="false" />
-            <element signature="e#202#325#0" expanded="false" />
-            <element signature="e#368#405#0" expanded="false" />
-            <element signature="e#477#1002#0" expanded="false" />
-            <element signature="e#1085#1740#0" expanded="false" />
-            <element signature="e#1834#2221#0" expanded="false" />
-            <element signature="e#2269#3316#0" expanded="false" />
-            <element signature="e#3408#3556#0" expanded="false" />
-            <element signature="e#3661#3820#0" expanded="false" />
-            <element signature="e#3915#4073#0" expanded="false" />
-            <element signature="e#4121#4316#0" expanded="false" />
-            <element signature="e#4400#4925#0" expanded="false" />
-            <element signature="e#5922#6704#0" expanded="false" />
-            <element signature="e#7361#7489#0" expanded="false" />
-            <element signature="e#7642#7708#0" expanded="false" />
-            <element signature="e#7762#7809#0" expanded="false" />
-            <element signature="e#7856#7927#0" expanded="false" />
-            <element signature="e#7971#8061#0" expanded="false" />
+            <element signature="e#25#45#0" expanded="true" />
+            <element signature="e#247#370#0" expanded="false" />
+            <element signature="e#413#450#0" expanded="false" />
+            <element signature="e#522#1047#0" expanded="false" />
+            <element signature="e#1130#1785#0" expanded="false" />
+            <element signature="e#1879#2266#0" expanded="false" />
+            <element signature="e#2314#3361#0" expanded="false" />
+            <element signature="e#3453#3601#0" expanded="false" />
+            <element signature="e#3960#4118#0" expanded="false" />
+            <element signature="e#4166#4361#0" expanded="false" />
+            <element signature="e#4445#4970#0" expanded="false" />
+            <element signature="e#8180#8251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,9 +788,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#65#0" expanded="true" />
-            <element signature="e#668#2096#0" expanded="false" />
-            <element signature="e#2127#4148#0" expanded="false" />
+            <element signature="e#9483#10693#0" expanded="false" />
+            <element signature="e#10721#10830#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -876,24 +799,18 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="540">
           <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
           <folding>
-            <element signature="e#25#45#0" expanded="false" />
-            <element signature="e#202#325#0" expanded="false" />
-            <element signature="e#368#405#0" expanded="false" />
-            <element signature="e#477#1002#0" expanded="false" />
-            <element signature="e#1085#1740#0" expanded="false" />
-            <element signature="e#1834#2221#0" expanded="false" />
-            <element signature="e#2269#3316#0" expanded="false" />
-            <element signature="e#3408#3556#0" expanded="false" />
-            <element signature="e#3661#3820#0" expanded="false" />
-            <element signature="e#3915#4073#0" expanded="false" />
-            <element signature="e#4121#4316#0" expanded="false" />
-            <element signature="e#4400#4925#0" expanded="false" />
-            <element signature="e#5922#6704#0" expanded="false" />
-            <element signature="e#7361#7489#0" expanded="false" />
-            <element signature="e#7642#7708#0" expanded="false" />
-            <element signature="e#7762#7809#0" expanded="false" />
-            <element signature="e#7856#7927#0" expanded="false" />
-            <element signature="e#7971#8061#0" expanded="false" />
+            <element signature="e#25#45#0" expanded="true" />
+            <element signature="e#247#370#0" expanded="false" />
+            <element signature="e#413#450#0" expanded="false" />
+            <element signature="e#522#1047#0" expanded="false" />
+            <element signature="e#1130#1785#0" expanded="false" />
+            <element signature="e#1879#2266#0" expanded="false" />
+            <element signature="e#2314#3361#0" expanded="false" />
+            <element signature="e#3453#3601#0" expanded="false" />
+            <element signature="e#3960#4118#0" expanded="false" />
+            <element signature="e#4166#4361#0" expanded="false" />
+            <element signature="e#4445#4970#0" expanded="false" />
+            <element signature="e#8180#8251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -965,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/IndexesToExchange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/newzealand_forests_npv_4q.1d.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
@@ -979,25 +889,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evenpaz/allocation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.4/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10505" max-vertical-offset="11055">
           <caret line="717" column="20" selection-start-line="717" selection-start-column="20" selection-end-line="717" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_exec2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1022,65 +917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/strategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="930">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/expKey.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/numbersUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1935">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#45#0" expanded="false" />
-            <element signature="e#202#325#0" expanded="false" />
-            <element signature="e#368#405#0" expanded="false" />
-            <element signature="e#477#1002#0" expanded="false" />
-            <element signature="e#1085#1740#0" expanded="false" />
-            <element signature="e#1834#2221#0" expanded="false" />
-            <element signature="e#2269#3316#0" expanded="false" />
-            <element signature="e#3408#3556#0" expanded="false" />
-            <element signature="e#3661#3820#0" expanded="false" />
-            <element signature="e#3915#4073#0" expanded="false" />
-            <element signature="e#4121#4316#0" expanded="false" />
-            <element signature="e#4400#4925#0" expanded="false" />
-            <element signature="e#5922#6704#0" expanded="false" />
-            <element signature="e#7361#7489#0" expanded="false" />
-            <element signature="e#7642#7708#0" expanded="false" />
-            <element signature="e#7762#7809#0" expanded="false" />
-            <element signature="e#7856#7927#0" expanded="false" />
-            <element signature="e#7971#8061#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evenpaz/evenpaz1d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5625" vertical-offset="697" max-vertical-offset="2505">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2607" max-vertical-offset="5040">
-          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lastdiminisher/lastdiminisher1d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1935">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1091,21 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/cakepartitions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="417" max-vertical-offset="930">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.4/csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1662" max-vertical-offset="6705">
           <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,27 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="885">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <element signature="e#24#65#0" expanded="true" />
-            <element signature="e#668#2096#0" expanded="false" />
-            <element signature="e#2127#4148#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3830" max-vertical-offset="7935">
-          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="450">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="570">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,21 +977,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lastdiminisher/lastdiminisher1d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1121" max-vertical-offset="1950">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmpmain.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_exec2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.421222" vertical-offset="1047" max-vertical-offset="1950">
-          <caret line="295" column="18" selection-start-line="295" selection-start-column="18" selection-end-line="295" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/IndexesToExchange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="960">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.4/enum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3596" max-vertical-offset="7935">
+          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.4/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="5040">
+          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evenpaz/evenpaz1d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="2505">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evenpaz/allocation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1005">
+          <caret line="47" column="91" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/numbersUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1645" max-vertical-offset="2610">
+          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#957#6069#0" expanded="false" />
-            <element signature="e#6119#7022#0" expanded="false" />
-            <element signature="e#7142#10084#0" expanded="false" />
-            <element signature="e#10286#11496#0" expanded="false" />
+            <element signature="e#25#45#0" expanded="true" />
+            <element signature="e#247#370#0" expanded="false" />
+            <element signature="e#413#450#0" expanded="false" />
+            <element signature="e#522#1047#0" expanded="false" />
+            <element signature="e#1130#1785#0" expanded="false" />
+            <element signature="e#1879#2266#0" expanded="false" />
+            <element signature="e#2314#3361#0" expanded="false" />
+            <element signature="e#3453#3601#0" expanded="false" />
+            <element signature="e#3960#4118#0" expanded="false" />
+            <element signature="e#4166#4361#0" expanded="false" />
+            <element signature="e#4445#4970#0" expanded="false" />
+            <element signature="e#8180#8251#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/calcOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="3945">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding>
+            <element signature="e#9483#10693#0" expanded="false" />
+            <element signature="e#10721#10830#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/cakepartitions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68222624" vertical-offset="355" max-vertical-offset="990">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
