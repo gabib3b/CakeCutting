@@ -14,7 +14,6 @@ import evenpaz.evenpaz1d as evenpazalg
 import lastdiminisher.lastdiminisher1d as LastDiminisher
 import utils.strategy as strategyUtil
 import utils.envInfluence as envEffect
-from results import ExpResult
 import utils.expKey as ExpKey
 import utils.additionalFields
 import utils.experimentType as expType
