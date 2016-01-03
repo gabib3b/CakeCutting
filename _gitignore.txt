@@ -1,3 +1,4 @@
 # python executable #
 ###################
 *.pyc
+/__pycache__
