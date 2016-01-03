@@ -1,5 +1,0 @@
-# python executable #
-###################
-*.pyc
-__pycache__/
-.iml
