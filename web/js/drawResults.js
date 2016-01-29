@@ -37,7 +37,7 @@ function drawgraph22(data, xlabel, yLabel) {
 
 
 function drawgraph(data, xlabel, yLabel) {
-    alert(1);
+    
     var graphDivId = createGrapgDiv();
     xValues = []
     yValues = []
