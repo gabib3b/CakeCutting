@@ -33,7 +33,7 @@
 </style>
 <input type="file" id="files" name="files[]" multiple />
 <output id="list"></output>
-<select id="selectComparision" onchange="selectedViewCHange()" style="">
+<select multiple id="selectComparision" onchange="selectedViewCHange()" style="">
     <option value="1">Main Alg Eeven Paz or Last Diminisher</option>
     <option value="2">Same values for the Land</option>
     <option value="3">With environment Influence on agent preferences</option>
@@ -70,55 +70,74 @@
 
     function selectedViewCHange() {
 
-        var selectedView = parseInt($('#selectComparision :selected').val());
+        var allSelected = $('#selectComparision :selected');
+        allSelctedresultsType = [];
+
+        for (var i = 0; i < allSelected.length; i++)
+        {
+            element = allSelected[i]
+            selectedView = parseInt($(element).val());
+
+            switch (selectedView)
+            {
+                case viewOptions.Main:
+                    {
+                        resultsType = 'mainAlgREsult';
+                       
+                        break;
+                    }
+                case viewOptions.Pwa:
+                    {
+                        resultsType = 'resultForIPWDA';
+                        break;
+                    }
+                case viewOptions.Env:
+                    {
+                        resultsType = 'envResult';
+                        break;
+                    }
+                case viewOptions.MainSWitch:
+                    {
+                        resultsType = 'mainAlgAfterChange';
+                        break;
+                    }
+                case viewOptions.PwaQithSwitch:
+                    {
+                        resultsType = 'resultForIPWDAAfterChange';
+                        break;
+                    }
+                case viewOptions.EnvWithSwitch:
+                    {
+                        resultsType = 'envResultAfterChange';
+                        break;
+                    }
+                case viewOptions.Fraud:
+                    {
+                        resultsType = 'fraudAgentREsults';
+                        drawEXpREsults(expRows, aggragation, selectedAlg, resultsType, false, 'agentIndex');
+                        return;
+                        break;
+                    }
+                default:
+                    alert('not valid option');
+
+            }
+
+            allSelctedresultsType.push(resultsType)
+
+        }
+
+        
+
+        //var selectedView = parseInt($('#selectComparision :selected').val());
         //alert(selectedView);
         $('#results_container').empty();
         var resultsType;
 
-        switch (selectedView) {
-            case viewOptions.Main:
-                {
-                    resultsType = 'mainAlgREsult';
-                    break;
-                }
-            case viewOptions.Pwa:
-                {
-                    resultsType = 'resultForIPWDA';
-                    break;
-                }
-            case viewOptions.Env:
-                {
-                    resultsType = 'envResult';
-                    break;
-                }
-            case viewOptions.MainSWitch:
-                {
-                    resultsType = 'mainAlgAfterChange';
-                    break;
-                }
-            case viewOptions.PwaQithSwitch:
-                {
-                    resultsType = 'resultForIPWDAAfterChange';
-                    break;
-                }
-            case viewOptions.EnvWithSwitch:
-                {
-                    resultsType = 'envResultAfterChange';
-                    break;
-                }
-            case viewOptions.Fraud:
-                {
-                    resultsType = 'fraudAgentREsults';
-                    drawEXpREsults(expRows, aggragation, selectedAlg, resultsType, false, 'agentIndex');
-                    return;
-                    break;
-                }
-            default:
-                alert('not valid option');
+        //alert(allSelctedresultsType.length)
 
-        }
-
-        drawEXpREsults(expRows, aggragation, selectedAlg, resultsType, true, null);
+        drawEXpREsults(expRows, aggragation, selectedAlg, allSelctedresultsType, true, null);
+        //drawEXpREsults(expRows, aggragation, selectedAlg, resultsType, true, null);
 
     }
 
@@ -207,58 +226,75 @@
     }
 
 
-    function drawEXpREsults(results, aggragation, selectedAlg, expType, isFlat, indexAttr) {
+    function drawEXpREsults(results, aggragation, selectedAlg, expTypes, isFlat, indexAttr) {
         var envyResults;
         var egalitarianResults;
         var utalitarianResults;
 
-        envyResults = [];
-        egalitarianResults = [];
-        utalitarianResults = [];
-
+        envyResults = {};
+        egalitarianResults = {};
+        utalitarianResults = {};
+       
 
         var xLabel;
 
-        for (var resultIndex in results) {
-            var currentResult = results[resultIndex];
-            var aggrValue;
+        for (i = 0; i < expTypes.length; i++)
+        {
+            expType = expTypes[i]
+            utalitarianResults[expType] = []
+            egalitarianResults[expType] = []
+            envyResults[expType] = []
 
-            if (aggragation == aggragationValues.noise) {
-                aggrValue = currentResult.expDetails.noise;
-                xLabel = 'Noise';
-            }
-            else {
-                aggrValue = currentResult.expDetails.numberOfAgents;
-            }
+            for (var resultIndex in results)
+            {
+                var currentResult = results[resultIndex];
+                var aggrValue;
 
-            var mainAlgREsults = currentResult.mainAlgREsult;
-            //currentResult.mainAlgREsult.utilitarianGain
-
-            if (!isFlat) {
-                var innerResults = currentResult[expType];
-                for (var res in innerResults) {
-
-                    var currentRes = innerResults[res];
-                    var index = currentRes[indexAttr];
-
-                    if (!utalitarianResults[index]) {
-                        utalitarianResults[index] = [];
-                        envyResults[index] = [];
-                        egalitarianResults[index] = [];
-                    }
-
-                    utalitarianResults[index].push({ X: aggrValue, Y: currentRes.utilitarianGain });
-                    envyResults[index].push({ X: aggrValue, Y: currentRes.envy });
-                    egalitarianResults[index].push({ X: aggrValue, Y: currentRes.egalitarianGain });
+                if (aggragation == aggragationValues.noise) {
+                    aggrValue = currentResult.expDetails.noise;
+                    xLabel = 'Noise';
                 }
-            }
-            else {
-                utalitarianResults.push({ X: aggrValue, Y: currentResult[expType].utilitarianGain });
-                envyResults.push({ X: aggrValue, Y: currentResult[expType].envy });
-                egalitarianResults.push({ X: aggrValue, Y: currentResult[expType].egalitarianGain });
-            }
+                else {
+                    aggrValue = currentResult.expDetails.numberOfAgents;
+                }
 
+                var mainAlgREsults = currentResult.mainAlgREsult;
+                //currentResult.mainAlgREsult.utilitarianGain
+
+                if (!isFlat) {
+
+                    var innerResults = currentResult[expType];
+                    for (var res in innerResults) {
+
+                        var currentRes = innerResults[res];
+                        var index = currentRes[indexAttr];
+
+                        if (!utalitarianResults[index]) {
+                            utalitarianResults[index] = [];
+                            envyResults[index] = [];
+                            egalitarianResults[index] = [];
+                        }
+
+                        utalitarianResults[expType][index].push({ X: aggrValue, Y: currentRes.utilitarianGain });
+                        envyResults[expType][index].push({ X: aggrValue, Y: currentRes.envy });
+                        egalitarianResults[expType][index].push({ X: aggrValue, Y: currentRes.egalitarianGain });
+                    }
+                }
+                else {
+                    utalitarianResults[expType].push({ X: aggrValue, Y: currentResult[expType].utilitarianGain });
+                    envyResults[expType].push({ X: aggrValue, Y: currentResult[expType].envy });
+                    egalitarianResults[expType].push({ X: aggrValue, Y: currentResult[expType].egalitarianGain });
+
+                    //utalitarianResults.push({ X: aggrValue, Y: currentResult[expType].utilitarianGain });
+                    //envyResults.push({ X: aggrValue, Y: currentResult[expType].envy });
+                    //egalitarianResults.push({ X: aggrValue, Y: currentResult[expType].egalitarianGain });
+                }
+
+            }
         }
+
+
+       
 
         clear();
 
