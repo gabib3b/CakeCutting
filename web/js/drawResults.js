@@ -36,16 +36,34 @@ function drawgraph22(data, xlabel, yLabel) {
 }
 
 
-function drawgraph(data, xlabel, yLabel) {
+function drawgraph(expDatas, xlabel, yLabel)
+{
     
     var graphDivId = createGrapgDiv();
-    xValues = []
-    yValues = []
+    var data = [];
 
-    for (i = 0; i < data.values.length; i++) {
-        xValues.push(data.values[i].X);
-        yValues.push(data.values[i].Y);
+    for (var prop in expDatas.values)
+    {
+        var xValues = []
+        var yValues = []
+
+        for (i = 0; i < expDatas.values[prop].length; i++)
+        {
+            xValues.push(expDatas.values[prop][i].X);
+            yValues.push(expDatas.values[prop][i].Y);
+        }
+
+        var expData = {
+            x: xValues,
+            y: yValues,
+            type: 'scatter',
+            name: prop
+        };
+
+        data.push(expData);
     }
+
+    
 
     var layout = {
         xaxis: {
@@ -61,12 +79,11 @@ function drawgraph(data, xlabel, yLabel) {
         hovermode: 'closest'
     };
 
-    var data = [{
+    /*var data = [{
         x: xValues,
         y: yValues,
         type: 'scatter'
-    }
-    ];
+    }];*/
 
 
     Plotly.newPlot(graphDivId, data, layout);
